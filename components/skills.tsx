@@ -1,6 +1,7 @@
 import { Fragment, useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
 
 const Skills = () => {
   const divVariants = {
@@ -46,7 +47,7 @@ const Skills = () => {
   );
 };
 
-const SkillCard = ({ name, icon }) => {
+const SkillCard = ({ name, icon }: {name:any, icon:any}) => {
   return (
     <div
       className={`ml-2 rounded-lg shadow-md p-4 hover:shadow-xl border-r-8 border-black border-y border-x transition duration-300`}
@@ -54,7 +55,7 @@ const SkillCard = ({ name, icon }) => {
       <div className="text-lg font-bold mb-2">
         {name}{" "}
         {icon && (
-          <img src={icon} className="w-10 h-10" alt="" srcSet="" />
+          <Image src={icon} className="w-10 h-10" alt="" />
         )}
       </div>
       <div className="text-gray-600"></div>

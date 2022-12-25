@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Footer() {
@@ -7,14 +8,14 @@ export default function Footer() {
     <footer className="footer p-10 bg-base-300 text-base-content">
   <div>
     {/* <span className="footer-title">Services</span>  */}
-    <a className="footer-title " href='/'>Home</a> 
+    <Link className="footer-title  " href='/'>Home</Link> 
     <a className="footer-title " href='/abot'>About</a> 
     <a className="footer-title "href='/utils'>Utilities</a> 
     {/* <a className="link link-hover">Advertisement</a> */}
   </div> 
   <div>
     {/* <span className="footer-title">Company</span>  */}
-    <a className="footer-title" href='/blog'>Blog</a> 
+    <Link className="footer-title" href='/blog'>Blog</Link> 
     <a className="footer-title" href='/projects'>Projects</a> 
     <a className="footer-title" href='mailto:spandansehgal@gmail.com'>Contact</a> 
     {/* <a className="link link-hover">Press kit</a> */}
