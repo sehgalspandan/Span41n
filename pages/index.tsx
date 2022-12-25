@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import Landing from '../components/landing'
 import Skills from '../components/skills'
+import Contact from '../components/contact'
 // import Blog from '../components/blog'
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
      
       <Landing/>
      <Skills/>
+     {/* <Contact/> */}
      {/* <Blog/> */}
       </Layout>
 

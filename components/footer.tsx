@@ -8,23 +8,23 @@ export default function Footer() {
     <footer className="footer p-10 bg-base-300 text-base-content">
   <div>
     {/* <span className="footer-title">Services</span>  */}
-    <Link className="footer-title  " href='/'>Home</Link> 
-    <a className="footer-title " href='/abot'>About</a> 
-    <a className="footer-title "href='/utils'>Utilities</a> 
+    <Link className="footer-title hover:text-black transition-all ease-in-out  " href='/'>Home</Link> 
+    <a className="footer-title hover:text-black transition-all ease-in-out " href='/abot'>About</a> 
+    <a className="footer-title hover:text-black transition-all ease-in-out"href='/utils'>Utilities</a> 
     {/* <a className="link link-hover">Advertisement</a> */}
   </div> 
   <div>
     {/* <span className="footer-title">Company</span>  */}
-    <Link className="footer-title" href='/blog'>Blog</Link> 
-    <a className="footer-title" href='/projects'>Projects</a> 
-    <a className="footer-title" href='mailto:spandansehgal@gmail.com'>Contact</a> 
+    <Link className="footer-title hover:text-black transition-all ease-in-out" href='/blog'>Blog</Link> 
+    <a className="footer-title hover:text-black transition-all ease-in-out" href='/projects'>Projects</a> 
+    <a className="footer-title hover:text-black transition-all ease-in-out" href='mailto:spandansehgal@gmail.com'>Contact</a> 
     {/* <a className="link link-hover">Press kit</a> */}
   </div> 
   <div>
     {/* <span className="footer-title">Legal</span>  */}
-    <a className="footer-title " href='https://github.com/spandyboss' target='_blank' rel="noreferrer">GitHub</a> 
+    <a className="footer-title hover:text-black transition-all ease-in-out" href='https://github.com/spandyboss' target='_blank' rel="noreferrer">GitHub</a> 
     {/* <a className="footer-title ">Email</a>  */}
-    <a className="footer-title " href='https://dev.to/spandyboss' target='_blank' rel="noreferrer"> Dev community</a>
+    <a className="footer-title hover:text-black transition-all ease-in-out" href='https://dev.to/spandyboss' target='_blank' rel="noreferrer"> Dev community</a>
   </div>
 </footer> 
 <footer className="footer px-10 py-4 border-t bg-base-300 text-base-content border-base-300">
