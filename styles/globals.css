@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+#name{
+    font-family: 'Sarina'
+
+}
+
+body{
+    background-color: #f2f2f2;
+}
+::selection {
+ @apply bg-emerald-400;
+  }
