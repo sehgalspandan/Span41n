@@ -25,7 +25,7 @@ export default function Landing() {
       alt="Spandan"
     />
     <h1 id='name' className="text-6xl text-gray-700 mt-4 " > Spandan Sehgal </h1>
-    <h3 className="font-medium text-xs md:text-sm lg:text-lg text-purple-500 "> Software Development Student </h3>
+    <h3 className="font-medium text-xs md:text-sm mt-2 lg:text-lg text-purple-500 "> Software Development Student </h3>
     <p className="  text-slate-500 dark:text-gray-300 font-medium text-sm md:text-base text-center">
       I&apos;m currently learning python from Udemy & building websites...
     </p>

@@ -16,7 +16,7 @@ export default function Home() {
      
       <Landing/>
      <Skills/>
-     {/* <Contact/> */}
+     <Contact/>
      {/* <Blog/> */}
       </Layout>
 

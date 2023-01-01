@@ -1,55 +1,44 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import {motion} from 'framer-motion'
-export default function Contact() {
-    function handleSubmit(event) {
-        event.preventDefault();
-        const formData = new FormData(event.target);
-        const s_name = ('sender-name');
-        const email = formData.get('email');
-        const message = formData.get('message');
-        console.log(s_name, email, message)
-        // Send form data to server or third-party service here
-      }
-  return (
-    <motion.div>
-     <form onSubmit={handleSubmit}>
-  <label className="block font-bold mb-2 text-gray-700" htmlFor="name">
-    Name
-  </label>
-  <input
-    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-    id="sender-name"
-    type="text"
-    placeholder="Jane Doe"
-  />
 
-  <label className="block font-bold mb-2 text-gray-700" htmlFor="email">
-    Email
-  </label>
-  <input
-    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-    id="email"
-    type="email"
-    placeholder="jane.doe@example.com"
-  />
+export const Contact = () => {
+    const form = useRef();
 
-  <label className="block font-bold mb-2 text-gray-700" htmlFor="message">
-    Message
-  </label>
-  <textarea
-    className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-    id="message"
-    placeholder="Enter your message here..."
-  />
-  <button
-  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-  type="submit"
->
-  Send
-</button>
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-</form>
-   
+        emailjs.sendForm('service_io6m844', 'template_jef7zto', form.current, 'ewdfmOcUsr1Yuc1Tq')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+    return (
+    <motion.div initial={{opacity:0, x:10}}
+    animate={{opacity:1, x:0}}
+    transition={{duration:1}}
+    >
+        <div className="flex justify-center mt-10">
+            <p className='text-4xl font-bold '>Get in touch ✉</p>
+        </div>
+        <form ref={form} onSubmit={sendEmail} className="text-gray-700 bg-gray-100 p-6 ">
+            <label className="block font-bold text-xl mb-2">Name</label>
+            <input type="text" name="user_name" className="w-full p-3 rounded-lg border-2 border-gray-300" />
+            <label className="block font-bold text-xl mt-6 mb-2">Email</label>
+            <input type="email" name="user_email" className="w-full p-3 rounded-lg border-2 border-gray-300" />
+            <label className="block font-bold text-xl mt-6 mb-2">Message</label>
+            <textarea name="message" className="w-full p-3 rounded-lg border-2 border-gray-300 h-32"></textarea>
+            <div className="flex justify-center">
+                <input type="submit" value="Send" className="mt-6 py-3 px-6 rounded-xl w-80 hover:bg-gray-800 hover:text-white transition-all ease-in-out hover:cursor-pointer border-gray-800 border-2 text-gray-600 font-bold" />
+            </div>
+        </form>
     </motion.div>
-  )
-}
+    );
+
+};
+
+export default Contact;
+
