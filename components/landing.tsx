@@ -34,6 +34,7 @@ export default function Landing() {
     </button>
     
   </div>
+
 </div>
 
     </motion.div>

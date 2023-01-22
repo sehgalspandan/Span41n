@@ -1,4 +1,4 @@
-import { Fragment, useEffect } from "react";
+import React, { Fragment, useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
@@ -63,6 +63,7 @@ const SkillCard = ({ name, icon }: {name:any, icon:any}) => {
         )}
       </div>
       <div className="text-gray-600"></div>
+
     </div>
   );
 };

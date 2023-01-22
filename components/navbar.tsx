@@ -13,9 +13,10 @@ export default function navbar() {
   <div className="navbar-center lg:flex">
     <ul className="menu menu-horizontal px-1">
       <li><a href='/' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Home</a></li>
+      <li><a href='/about' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>About</a></li>  
       <li><a href='/blog' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Blog</a></li>
-      <li><a href='/projects' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Projects</a></li>
-      <li><a href='/about' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>About</a></li>
+      <li><a href='/project.tsx' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Projects</a></li>
+      <li><a href='/skills' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Skills</a></li>
     </ul>
   </div>
   <div className="navbar-end">

@@ -16,7 +16,7 @@ export default function Footer() {
   <div>
     {/* <span className="footer-title">Company</span>  */}
     <Link className="footer-title hover:text-black transition-all ease-in-out" href='/blog'>Blog</Link> 
-    <a className="footer-title hover:text-black transition-all ease-in-out" href='/projects'>Projects</a> 
+    <a className="footer-title hover:text-black transition-all ease-in-out" href='/project.tsx'>Projects</a>
     <a className="footer-title hover:text-black transition-all ease-in-out" href='mailto:spandansehgal@gmail.com'>Contact</a> 
     {/* <a className="link link-hover">Press kit</a> */}
   </div> 

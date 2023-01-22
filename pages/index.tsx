@@ -3,7 +3,9 @@ import Layout from '../components/layout'
 import Landing from '../components/landing'
 import Skills from '../components/skills'
 import Contact from '../components/contact'
-// import Blog from '../components/blog'
+import Blogs from '../components/Blogs'
+import Projects from "../components/project";
+import React from "react";
 export default function Home() {
   return (
 
@@ -16,8 +18,18 @@ export default function Home() {
      
       <Landing/>
      <Skills/>
-     <Contact/>
-     {/* <Blog/> */}
+          <center>
+              <hr className="h-1 mt-10 w-96 bg-gray-300"></hr>
+          </center>
+          <Projects/>
+          <center>
+              <hr className="h-1 mt-10 w-96 bg-gray-300"></hr>
+          </center>
+     {/* <Contact/> */}
+      <Blogs/>
+          <center>
+              <hr className="h-1 mt-10 w-96 bg-gray-300"></hr>
+          </center>
       </Layout>
 
 
