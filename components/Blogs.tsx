@@ -18,7 +18,7 @@ const Blogs = () => {
                 {blogs.slice(0, 3).map((blog) => (
                     <AnimatePresence key={blog.id}>
                         <motion.article
-                            className="card overflow-hidden rounded-lg mt-2 shadow h-fit bg-white transition hover:shadow-lg"
+                            className="card overflow-hidden border border-black hover:scale-95 rounded-lg mt-2 shadow h-fit bg-white transition hover:shadow-lg"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             exit={{ opacity: 0 }}
@@ -29,7 +29,7 @@ const Blogs = () => {
                             {/*    className="h-56 w-full object-cover"*/}
                             {/*/>*/}
 
-                            <div className="content bg-white font-semibold p-4 sm:p-6">
+                            <div className="content bg-base-200  font-semibold p-4 sm:p-6">
                                 <time className="date block text-xs text-gray-500">
                                     {/*{blog.created_at}*/}
 

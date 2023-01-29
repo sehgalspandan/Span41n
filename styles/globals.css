@@ -11,6 +11,7 @@
 
 body{
     @apply w-fit;
+    @apply sm:w-full;
     background-color: #f2f2f2;
     
 }
