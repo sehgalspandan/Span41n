@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <>
     
-    <footer className="footer p-10 bg-base-300 text-base-content">
+    <footer className="footer p-10 bg-base-300  text-base-content">
   <div>
     {/* <span className="footer-title">Services</span>  */}
     <Link className="footer-title hover:text-black transition-all ease-in-out  " href='/'>Home</Link> 

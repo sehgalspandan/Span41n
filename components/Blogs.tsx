@@ -31,8 +31,17 @@ const Blogs = () => {
 
                             <div className="content bg-white font-semibold p-4 sm:p-6">
                                 <time className="date block text-xs text-gray-500">
-                                    {blog.created_at}
+                                    {/*{blog.created_at}*/}
+
+                                {new Date(blog.published_at).toLocaleDateString("en-US", {
+                                    year: "numeric",
+                                    month: "long",
+                                    day: "numeric",
+                                })
+
+                                }
                                 </time>
+
 
                                 <a href={blog.url}>
                                     <h3 className="title mt-0.5 text-lg font-bold text-gray-900">
