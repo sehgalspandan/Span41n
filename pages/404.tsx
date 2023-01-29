@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from "../components/layout";
 import Head from "next/head";
+import Link from "next/link";
 export default function error() {
   return (
       <div>
@@ -52,7 +53,7 @@ export default function error() {
                 <p className="mt-4 text-gray-500">We can&apos;t find that page.</p>
             </div>
             <center>
-            <a
+            <Link
                 className="group hover:bg-indigo-500 hover:text-white mt-4 relative w-fit inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-indigo-600 focus:outline-none focus:ring active:text-indigo-500"
                 href="/"
             >
@@ -78,7 +79,7 @@ export default function error() {
                 <span className="text-sm font-medium transition-all group-hover:mr-4">
     Go back home
   </span>
-            </a>
+            </Link>
             </center>
         </div>
 
