@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion"
 // import { Link } from "gatsby"
 
 const Project = () => {
-    const [projects, setProjects] = useState([])
+    const [projects, setProjects] = useState([] as any [])
 
     useEffect(() => {
         fetch("/projects.json")
