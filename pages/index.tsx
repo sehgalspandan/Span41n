@@ -14,6 +14,7 @@ export default function Home() {
         <title>Spandan Sehgal</title>
         <meta name="description" content="My portfolio website with my latest blog"/>
         <link rel="icon" href="/logo/logo-color.png" />
+          <meta name="google-site-verification" content="MTCdufNgJmf9kJAKcIrDJ5SEBN2MLzePtHJR0wgfHdE" />
         </Head>
      
       <Landing/>
