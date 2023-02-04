@@ -15,7 +15,7 @@ export default function navbar() {
       <li><a href='/' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Home</a></li>
       <li><a href='/about' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>About</a></li>  
       <li><a href='/blog' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Blog</a></li>
-      <li><a href='/project' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Projects</a></li>
+      <li><a href='/projects' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Projects</a></li>
       {/*<li><a href='/utilities' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Utilities</a></li>*/}
       <li><a href='/skills' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Skills</a></li>
     </ul>
