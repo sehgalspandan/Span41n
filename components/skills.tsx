@@ -62,7 +62,7 @@ const SkillCard = ({ name, icon }: {name:any, icon:any}) => {
           <Image src={icon} className="w-10 h-10" alt="Skill" width="100" height="100" />
         )}
       </div>
-      <div className="text-gray-600"></div>
+      <div className="text-gray-600" />
 
     </div>
   );

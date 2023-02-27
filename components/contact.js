@@ -30,7 +30,7 @@ export const Contact = () => {
             <label className="block font-bold text-xl mt-6 mb-2">Email</label>
             <input type="email" name="user_email" className="w-full p-3 rounded-lg border-2 border-gray-300" />
             <label className="block font-bold text-xl mt-6 mb-2">Message</label>
-            <textarea name="message" className="w-full p-3 rounded-lg border-2 border-gray-300 h-32"></textarea>
+            <textarea name="message" className="w-full p-3 rounded-lg border-2 border-gray-300 h-32" />
             <div className="flex justify-center">
                 <input type="submit" value="Send" className="mt-6 py-3 px-6 rounded-xl w-80 hover:bg-gray-800 hover:text-white transition-all ease-in-out hover:cursor-pointer border-gray-800 border-2 text-gray-600 font-bold" />
             </div>

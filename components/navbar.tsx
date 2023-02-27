@@ -20,8 +20,7 @@ export default function navbar() {
       <li><a href='/skills' className='text-lg  text-gray-500 hover:text-gray-800 hover:scale-110 transition-all ease-out'>Skills</a></li>
     </ul>
   </div>
-  <div className="navbar-end">
-  </div>
+  <div className="navbar-end" />
 </div>
         </div>
     )
