@@ -31,8 +31,8 @@ export default function Home() {
       {/* <Blogs/>
           <center>
               <hr className="h-1 mt-10 w-96 bg-gray-300"></hr>
-          </center>
-      </Layout>
+  </center>*/}
+  </Layout>
 
 
 
