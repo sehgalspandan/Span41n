@@ -19,7 +19,7 @@ export default function about() {
             transition = {{duration: 1.2}}
 
             >
-            <div className="flex flex-col items-center font-sans justify-center h-screen p-10 ">
+            <div className="flex flex-col items-center font-sans justify-center  p-10 ">
                 <h1 className="text-5xl font-bold text-gray-900">About Me</h1>
                 <p className="text-xl mt-10 text-gray-700">
                  <b>   I&apos;m Spandan, a 14-year-old tech enthusiast</b> from India. I&apos;ve been fascinated by technology for as long as I can remember, and I&apos;ve been working hard to turn that fascination into real skills. I&apos;ve got a solid foundation in <b> HTML, CSS, JavaScript, and a few frameworks like Next.js and TailwindCSS, as well as experience with TypeScript and Python.</b> I&apos;m always looking for ways to improve my skills and stay up-to-date with the latest technologies.

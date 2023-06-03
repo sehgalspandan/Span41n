@@ -6,6 +6,7 @@ import Contact from '../components/contact'
 import Blogs from '../components/Blogs'
 import Projects from "../components/project";
 import React from "react";
+// import Contact from '../components/contact'
 export default function Home() {
   return (
 
@@ -27,10 +28,14 @@ export default function Home() {
               <hr className="h-1 mt-10 w-96 bg-gray-300"></hr>
           </center>
      {/* <Contact/> */}
-      <Blogs/>
+      {/* <Blogs/>
           <center>
               <hr className="h-1 mt-10 w-96 bg-gray-300"></hr>
-          </center>
+          </center> */}
+        
+
+          <Contact/>
+
       </Layout>
 
 
