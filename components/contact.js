@@ -10,6 +10,7 @@ export const Contact = () => {
 
         emailjs.sendForm('service_io6m844', 'template_jef7zto', form.current, 'ewdfmOcUsr1Yuc1Tq')
             .then((result) => {
+<<<<<<< HEAD
                 console.log(result.text);
                 //reset form
                 form.current.reset();
@@ -17,8 +18,11 @@ export const Contact = () => {
 
                 
 
+=======
+                
+>>>>>>> 119359fb0816a0006a8cbb4986f400131411cb67
             }, (error) => {
-                console.log(error.text);
+                
             });
     };
 
@@ -63,6 +67,7 @@ transition={{ duration: 1 }}>
             Gurugram, Haryana, India
           </address>
         </div>
+<<<<<<< HEAD
       </div>
 
       <div className="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
@@ -88,6 +93,17 @@ transition={{ duration: 1 }}>
                 id="user_email"
                 name="user_email"
               />
+=======
+        <form ref={form} onSubmit={sendEmail} className="text-gray-700 bg-gray-100 p-6 ">
+            <label className="block font-bold text-xl mb-2">Name</label>
+            <input type="text" name="user_name" className="w-full p-3 rounded-lg border-2 border-gray-300" />
+            <label className="block font-bold text-xl mt-6 mb-2">Email</label>
+            <input type="email" name="user_email" className="w-full p-3 rounded-lg border-2 border-gray-300" />
+            <label className="block font-bold text-xl mt-6 mb-2">Message</label>
+            <textarea name="message" className="w-full p-3 rounded-lg border-2 border-gray-300 h-32" />
+            <div className="flex justify-center">
+                <input type="submit" value="Send" className="mt-6 py-3 px-6 rounded-xl w-80 hover:bg-gray-800 hover:text-white transition-all ease-in-out hover:cursor-pointer border-gray-800 border-2 text-gray-600 font-bold" />
+>>>>>>> 119359fb0816a0006a8cbb4986f400131411cb67
             </div>
           </div>
 
