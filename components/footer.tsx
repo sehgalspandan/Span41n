@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import Link from 'next/link'
 import React from 'react'
 
@@ -14,7 +15,7 @@ export default function Footer() {
   <div>
     {/* <span className="footer-title">Services</span>  */}
     <Link className="footer-title hover:text-black transition-all ease-in-out  " href='/'>Home</Link> 
-    <a className="footer-title hover:text-black transition-all ease-in-out " href='/abot'>About</a> 
+    <a className="footer-title hover:text-black transition-all ease-in-out " href='/about'>About</a> 
     <a className="footer-title hover:text-black transition-all ease-in-out"href='/utils'>Utilities</a> 
     {/* <a className="link link-hover">Advertisement</a> */}
   </div> 
