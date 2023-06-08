@@ -10,7 +10,7 @@ export const Contact = () => {
 
     emailjs.sendForm('service_io6m844', 'template_jef7zto', form.current, 'ewdfmOcUsr1Yuc1Tq')
       .then((result) => {
-        console.log(result.text);
+        
         //reset form
         form.current.reset();
         //show a modal for succes
