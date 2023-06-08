@@ -81,7 +81,7 @@ export const Contact = () => {
                     rows="8"
                     id="message"
                     name="message"
-                  ></textarea>
+                   />
                 </div>
                 <div className="mt-4">
                   <button

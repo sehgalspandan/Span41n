@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div id='footer' className=''>
      
-    <hr className="h-1 mt-10 w-full bg-gray-300"></hr>
+    <hr className="h-1 mt-10 w-full bg-gray-300" />
               
     
     
