@@ -1,3 +1,4 @@
+
 import React, { Fragment, useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -32,11 +33,11 @@ const Skills = () => {
         initial="hidden"
         variants={divVariants}
         exit={{
-            opacity:0,
-            y:100
-          }}
+          opacity: 0,
+          y: 100
+        }}
       >
-        <div className="ml-2 text-3xl font-bold mb-4">My Skills</div>
+        <div className="ml-2 w-auto  text-3xl font-bold mb-4">My Skills</div>
         <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {skills.map((skill) => (
             <SkillCard
@@ -51,19 +52,22 @@ const Skills = () => {
   );
 };
 
-const SkillCard = ({ name, icon }: {name:any, icon:any}) => {
+const SkillCard = ({ name, icon }: { name: string; icon: string }) => {
   return (
-    <div
-      className={`ml-2 rounded-lg shadow-md p-4 hover:scale-90 hover:shadow-xl border-r-8 border-black border-y border-x transition duration-300`}
-    >
+    <div className="ml-2 rounded-lg shadow-md p-4 hover:scale-90 hover:cursor-pointer hover:bg-gray-200 hover:shadow-xl border-r-8 border-black border-y border-x transition duration-300">
       <div className="text-lg font-bold mb-2">
         {name}{" "}
         {icon && (
-          <Image src={icon} className="w-10 h-10" alt="Skill" width="100" height="100" />
+          <Image
+            src={icon}
+            className="w-10 h-10"
+            alt="Skill"
+            width="100"
+            height="100"
+          />
         )}
       </div>
       <div className="text-gray-600" />
-
     </div>
   );
 };
@@ -93,6 +97,14 @@ const skills = [
     name: "Git",
     icon: "/git.svg",
   },
+  {
+    name: "Nodejs",
+    icon: "/nodejs.svg"
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "/tailwindcss.svg"
+  }
 ];
 
 export default Skills;

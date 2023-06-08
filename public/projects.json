@@ -1,24 +1,26 @@
 
 [
+  
   {
-  "id": 1,
-  "title": "SureCrypt",
-  "description": "A simple encryption tool",
-  "link" : "https://surecrypt.com",
-    "version":"1.0.0"
-  },
-  {
-    "id": 2,
+    "id": 1,
     "title": "Weather App",
     "description": "A modern weather app with a clean UI",
     "link": "#",
     "version": "Coming Soon"
   },
   {
-    "id": 3,
-    "title": "Tech With Spandy",
-    "description": "A blog about tech and programming",
-    "link": "https://techwithspandy.tk",
-    "version": "2.0.0"
+    "id": 2,
+    "title": "Blog",
+    "description": "The blog section of this website",
+    "link": "/blog",
+    "version": "Under Development"
+  },
+
+  {
+    "id":3,
+    "title":"Tech With Spandy",
+    "description":"My first blog built by me",
+    "link":"https://techwithspandy.vercel.app",
+    "version":"2.0.0"
   }
 ]
