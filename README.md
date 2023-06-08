@@ -1,15 +1,15 @@
 
 # Span41n
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
 [![Last commit](https://img.shields.io/github/last-commit/SpandyBoss/Span41n)](https://img.shields.io/github/last-commit/SpandyBoss/Span41n)
+[![Version](https://img.shields.io/badge/Version-1.2-brightgreen)](https://img.shields.io/badge/Version-1.2-brightgreen)
 
 My Portfolio website built with:
 - NextJS
 - Tailwind CSS
 - Typescript
 - Framer Motion
-- Love <3
+- Love ❤️
 
 
 
