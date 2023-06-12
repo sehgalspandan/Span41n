@@ -12,6 +12,9 @@ My Portfolio website built with:
 - Love ❤️
 
 
+## Contributors:
+
+- [@AcidOp](https://github.com/AcidOP)
 
 
 ## Run Locally
