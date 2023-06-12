@@ -29,7 +29,7 @@ export const Contact = () => {
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 1 }}>
       <section className=" mt-2">
-        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl text-center pb-5 text-gray-900 font-bold">Contact</h1>
 
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
