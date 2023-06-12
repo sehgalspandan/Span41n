@@ -19,7 +19,7 @@ My Portfolio website built with:
 
 ## Run Locally
 
-To use this repo as template you can simply click on the `Use this template ` button or do the following steps:
+To use this repo as template you can simply click on the `Use this template ` button or fork your own copy of this repo or just do the following steps:
 
 Clone the project
 
