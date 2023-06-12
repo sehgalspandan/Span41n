@@ -30,7 +30,7 @@ export const Contact = () => {
       transition={{ duration: 1 }}>
       <section className=" mt-2">
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-          <h1 className="text-3xl text-gray-900 font-bold">Contact</h1>
+          <h1 className="text-3xl text-center pb-5 text-gray-900 font-bold">Contact</h1>
 
           <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
             <div className="lg:col-span-2 lg:py-12">
@@ -54,7 +54,7 @@ export const Contact = () => {
                 <div>
                   <label className="sr-only" htmlFor="name">Name</label>
                   <input
-                    className="w-full rounded-lg border border-black p-3 text-sm"
+                    className="w-full bg-gray-300 rounded-lg border border-gray-400 p-3 text-sm"
                     placeholder="Name"
                     type="text"
                     id="user_name"
@@ -65,7 +65,7 @@ export const Contact = () => {
                   <div>
                     <label className="sr-only" htmlFor="email">Email</label>
                     <input
-                      className="w-full rounded-lg border border-black p-3 text-sm"
+                      className="w-full bg-gray-300 rounded-lg border border-gray-400 p-3 text-sm"
                       placeholder="Email address"
                       type="email"
                       id="user_email"
@@ -76,7 +76,7 @@ export const Contact = () => {
                 <div>
                   <label className="sr-only" htmlFor="message">Message</label>
                   <textarea
-                    className="w-full rounded-lg border border-black p-3 text-sm"
+                    className="w-full bg-gray-300 rounded-lg border border-gray-400 p-3 text-sm"
                     placeholder="Message"
                     rows="8"
                     id="message"
