@@ -54,7 +54,7 @@ export const Contact = () => {
                 <div>
                   <label className="sr-only" htmlFor="name">Name</label>
                   <input
-                    className="w-full bg-gray-300 rounded-lg border border-gray-400 p-3 text-sm"
+                    className="w-full  rounded-lg border border-gray-400 p-3 text-sm"
                     placeholder="Name"
                     type="text"
                     id="user_name"
@@ -65,7 +65,7 @@ export const Contact = () => {
                   <div>
                     <label className="sr-only" htmlFor="email">Email</label>
                     <input
-                      className="w-full bg-gray-300 rounded-lg border border-gray-400 p-3 text-sm"
+                      className="w-full  rounded-lg border border-gray-400 p-3 text-sm"
                       placeholder="Email address"
                       type="email"
                       id="user_email"
@@ -76,7 +76,7 @@ export const Contact = () => {
                 <div>
                   <label className="sr-only" htmlFor="message">Message</label>
                   <textarea
-                    className="w-full bg-gray-300 rounded-lg border border-gray-400 p-3 text-sm"
+                    className="w-full  rounded-lg border border-gray-400 p-3 text-sm"
                     placeholder="Message"
                     rows="8"
                     id="message"

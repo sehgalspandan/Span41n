@@ -25,7 +25,7 @@ const Project = () => {
                 animate={{ y: 0 }}
                 exit={{ y: "100%" }}
                 transition={{ duration: 1, ease: "easeInOut" }}
-                className="relative mt-6 block w-96 lg:w-4/6 bg-inherit rounded-xl border border-black p-8 shadow-md mx-auto"
+                className="relative mt-6 block w-96 lg:w-full bg-inherit rounded-xl border border-black p-8 shadow-md mx-auto"
                 href={project.link}
               >
                 <span className="absolute right-4 top-4 rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600">

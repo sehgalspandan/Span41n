@@ -55,7 +55,7 @@ const Skills = () => {
 
 const SkillCard = ({ name, icon }: { name: string; icon: string }) => {
   return (
-    <div className="ml-2 rounded-lg shadow-md py-4 px-10 hover:scale-90 hover:cursor-pointer hover:bg-gray-200 hover:shadow-xl border-r-8 border-black border-y border-x transition duration-300 w-96 lg:w-4/6">
+    <div className="ml-2 rounded-lg shadow-md py-4 px-10 hover:scale-90 hover:cursor-pointer hover:bg-gray-200 hover:shadow-xl border-r-8 border-black border-y border-x transition duration-300 w-96 lg:w-full">
       <div className="text-lg font-bold mb-2">
         {name}{" "}
         {icon && (

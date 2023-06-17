@@ -5,7 +5,7 @@ import React from 'react'
 export default function navbar() {
     return (
         <div>
-            <div className="navbar font-sans bg-base-200">
+            <div className="navbar font-sans  ">
   <div className="navbar-start">
   <img src="/logo/logo-color.png" className='hidden md:block w-20 h-20 rounded-full' alt="" />
  

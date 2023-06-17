@@ -29,7 +29,7 @@ const Blogs = () => {
                             {/*    className="h-56 w-full object-cover"*/}
                             {/*/>*/}
 
-                            <div className="content bg-base-200  font-semibold p-4 sm:p-6">
+                            <div className="content    font-semibold p-4 sm:p-6">
                                 <time className="date block text-xs text-gray-500">
                                     {/*{blog.created_at}*/}
 
