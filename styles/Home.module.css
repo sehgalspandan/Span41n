@@ -1,4 +1,4 @@
-.icon::after{
+/* .icon::after{
     content: '';
     display: block;
     position: absolute;
@@ -7,4 +7,4 @@
     border-left: 12px solid #3182ce;
     left: 100%;
     top: 0;
-}
+} */

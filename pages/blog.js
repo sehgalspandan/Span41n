@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Layout from "../components/layout";
 import Head from "next/head";
-import { getSortedPostsData } from "../lib/posts"
+// import { getSortedPostsData } from "../lib/posts"
 import Link from "next/link";
 import fs from "fs"
 import Image from "next/image"
@@ -32,8 +32,8 @@ function Blogs({ posts }) {
           //JSX for individual blog listing
           return (
 
-            <article key={slug} s="true" className="flex bg-white mx-auto  mt-4 transition hover:shadow-xl mb-4 max-w-4xl rounded-md  shadow-md" >
-              <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
+            <article key={slug} s="true" className="flex bg-white mx-auto  mt-4 transition hover:shadow-xl  mb-4 max-w-4xl  rounded-md  shadow-md" >
+              <div className="rotate-180 p-2  [writing-mode:_vertical-lr]">
                 <time
                   dateTime="2022-10-10"
                   className="flex items-center justify-between gap-4 text-xs font-bold uppercase text-gray-900"

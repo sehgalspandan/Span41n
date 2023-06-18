@@ -13,6 +13,7 @@ body{
     @apply w-fit;
     @apply sm:w-full;
     background-color: #f2f5fa;
+    @apply text-black;
     
 }
 ::selection {

@@ -30,7 +30,7 @@ export default function Post({ frontmatter, content }) {
         transition={{ duration: 0.5 }}
         exit={{ opacity: 0 }}
       >
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-2xl  mx-auto px-4 md:px-0">
           {/* <Image
             src={bannerImage}
             alt={title}
@@ -46,7 +46,7 @@ export default function Post({ frontmatter, content }) {
             Tags: {tags.join(", ")}
           </h3> */}
           <div
-            className="prose max-w-none mt-4"
+            className="prose max-w-none  mt-4"
             dangerouslySetInnerHTML={{ __html: md.render(content) }}
             id="post-body"
           />
