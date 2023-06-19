@@ -12,7 +12,6 @@
 body{
     @apply w-fit;
     @apply sm:w-full;
-    background-color: #f2f5fa;
     @apply text-black;
     
 }
@@ -39,12 +38,14 @@ body{
  
 }
 
-#post-body code {
-    background: #A8DADC;
-    color: #2f2f2f;
-    padding: 2px 5px;
-    border-radius: 5px;
+#post-body  pre {
+  @apply bg-slate-200 rounded-md p-3 w-fit font-semibold flex text-sm mt-2 mb-2;
+  
   }
+
+#post-body code{
+  @apply bg-slate-200;
+}
 
 #post-body h1{
 

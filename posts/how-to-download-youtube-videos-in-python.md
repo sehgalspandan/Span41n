@@ -1,9 +1,9 @@
 ---
 title: "How to download youtube videos in python"
-date: "18 May 2023"
+date: "18 June 2023"
 bannerImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png"
 description: "How to download youtube videos in python"
-author: "Spandan"
+author: "Spandan Sehgal"
 ---
 
 # Intro

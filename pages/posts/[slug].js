@@ -39,7 +39,7 @@ export default function Post({ frontmatter, content }) {
             height={200}
           /> */}
           <h1 className="text-3xl font-bold mt-4" id="title">{title}</h1>
-          <h2 className="text-lg text-gray-600">
+          <h2 className="text-lg mt-2 text-gray-600">
             {author}, {date}
           </h2>
           {/* <h3 className="text-sm text-gray-500 mb-2">

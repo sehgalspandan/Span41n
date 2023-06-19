@@ -6,10 +6,16 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'octodex.github.com',
+        hostname: 'octodex.github.com', 
         port: '',
-        pathname: '/images/**',
+        pathname: '/images/**'
       },
+      {
+        protocol: 'https',
+        hostname: 'encrypted-tbn0.gstatic.com',
+        port: '',
+        pathname: '/images/**'
+      }
     ],
   },
 }
