@@ -80,7 +80,7 @@ const skills = [
   },
   {
     name: "CSS",
-    icon: "/css3-alt.svg",
+    icon: "/css.svg",
   },
   {
     name: "JS",
