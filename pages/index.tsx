@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Landing from "../components/landing";
 import Skills from "../components/skills";
 import Contact from "../components/contact";
-import Blogs from "../components/Blogs";
+// import Blogs from "../components/Blogs";
 import Projects from "../components/project";
 import React from "react";
 
