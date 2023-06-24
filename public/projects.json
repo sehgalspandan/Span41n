@@ -3,10 +3,10 @@
   
   {
     "id": 1,
-    "title": "Weather App",
+    "title": "WeatherCast",
     "description": "A modern weather app with a clean UI",
-    "link": "#",
-    "version": "Coming Soon"
+    "link": "https://weather-cast.vercel.app",
+    "version": "1.0"
   },
   {
     "id": 2,
