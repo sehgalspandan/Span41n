@@ -31,6 +31,8 @@ export default function Footer() {
     <a className="footer-title hover:text-black transition-all ease-in-out" href='https://github.com/spandyboss' target='_blank' rel="noreferrer">GitHub</a> 
     {/* <a className="footer-title ">Email</a>  */}
     <a className="footer-title hover:text-black transition-all ease-in-out" href='https://dev.to/spandyboss' target='_blank' rel="noreferrer"> Dev community</a>
+    <a className="footer-title hover:text-black transition-all ease-in-out" href='https://medium.com/@spandansehgal' target='_blank' rel="noreferrer"> Medium.com </a>
+  
   </div>
 </footer> 
 <footer className="footer px-10 py-4 border-t text-gray-500   border-base-300">
