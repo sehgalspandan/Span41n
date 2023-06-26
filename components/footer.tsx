@@ -16,13 +16,13 @@ export default function Footer() {
     {/* <span className="footer-title">Services</span>  */}
     <Link className="footer-title hover:text-black transition-all ease-in-out  " href='/'>Home</Link> 
     <a className="footer-title hover:text-black transition-all ease-in-out " href='/about'>About</a> 
-    <a className="footer-title hover:text-black transition-all ease-in-out"href='/utils'>Utilities</a> 
+{/*     <a className="footer-title hover:text-black transition-all ease-in-out"href='/utils'>Utilities</a>  */}
     {/* <a className="link link-hover">Advertisement</a> */}
   </div> 
   <div>
     {/* <span className="footer-title">Company</span>  */}
     <Link className="footer-title hover:text-black transition-all ease-in-out" href='/blog'>Blog</Link> 
-    <a className="footer-title hover:text-black transition-all ease-in-out" href='/project.tsx'>Projects</a>
+    <a className="footer-title hover:text-black transition-all ease-in-out" href='/projects'>Projects</a>
     <a className="footer-title hover:text-black transition-all ease-in-out" href='mailto:spandansehgal@gmail.com'>Contact</a> 
     {/* <a className="link link-hover">Press kit</a> */}
   </div> 
