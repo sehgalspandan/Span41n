@@ -8,7 +8,7 @@ author: "Spandan Sehgal"
 
 ## Introduction
 
-Hello everyone, in this post, as the title suggests I am going to provide links to some of the most useful websites that every developer should know about. 
+Hello everyone, in this post, as the title suggests I am going to provide links to some of the most useful websites that everyone should know about. 
 
 ## 1. [Image Color Picker](https://imagecolorpicker.com/en)
 
