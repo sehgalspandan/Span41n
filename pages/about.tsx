@@ -19,21 +19,20 @@ export default function about() {
             transition = {{duration: 1.2}}
 
             >
-            <div className="flex flex-col items-center font-sans justify-center  p-10 ">
+            
+                <div className="flex flex-col items-center font-sans justify-center   p-10 ">
                 <h1 className="text-5xl font-bold text-gray-900">About Me</h1>
                 <p className="text-xl mt-10 text-gray-700">
-                 <b>   I&apos;m Spandan, a 14-year-old tech enthusiast</b> from India. I&apos;ve been fascinated by technology for as long as I can remember, and I&apos;ve been working hard to turn that fascination into real skills. I&apos;ve got a solid foundation in <b> HTML, CSS, JavaScript, and a few frameworks like Next.js and TailwindCSS, as well as experience with TypeScript and Python.</b> I&apos;m always looking for ways to improve my skills and stay up-to-date with the latest technologies.
+                 <b>Hey there! I&apos;m Spandan, a 15-year-old tech enthusiast</b> from India. I&apos;ve always been super interested in technology, and I&apos;ve been working really hard to develop my skills in this field. I&apos;ve got a solid foundation in <b>HTML, CSS, JavaScript, and a few cool frameworks like Next.js and TailwindCSS, as well as some experience with TypeScript and Python.</b> I&apos;m always on the lookout for ways to improve my skills and keep up with the latest tech trends.
                 </p>
+                
                 <p className="text-xl mt-10 text-gray-700">
-                    Aside from my love for tech, I also have a creative side. <b> I enjoy photography</b> and finding new ways to express myself through my pictures. I find that my photography skills help me to think outside of the box and bring a fresh perspective to my tech projects.
-                </p>
-                <p className="text-xl mt-10 text-gray-700">
-                   <b> As I mentioned, I have a good understanding of computers and phones, and I&apos;m always eager to learn more. My ultimate goal is to become a software developer, and I&apos;m confident that with my skills and passion, I&apos;ll get there eventually.</b>
+                   <b>Like I mentioned earlier, I have a good understanding of computers and phones, and I&apos;m always eager to learn more. My ultimate goal is to become a software developer, and I&apos;m pretty confident that with my skills and passion, I&apos;ll get there eventually.</b>
                 </p>
                 <div className="mt-10">
-                    <button className="bg-green-500 text-white py-2 px-4 rounded-full hover:bg-white hover:border-green-500 hover:border-2 hover:text-green-500 transition-all ease-in-out ">
-                        <a href="https://github.com/spandyboss" rel="noreferrer" target="_blank"> Connect with me </a>
-                    </button>
+                <button className="border-indigo-600 border-2 px-8 py-2 mt-8 rounded-3xl hover:scale-105 transition-all ease-in-out text-indigo-600 font-semibold uppercase tracking-wide">
+              Let&apos;s Connect
+            </button>
                 </div>
             </div>
             </motion.div>

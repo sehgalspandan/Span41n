@@ -35,12 +35,12 @@ export default function ScrollToTopButton() {
             opacity: 1,
           }}
           transition={{
-            duration: 0.5,
+            duration: 0.2,
           }}
           aria-label="Scroll To Top"
           className="fixed bottom-20 100 transition-all ease-in-out right-8 md:bottom-[50px] md:right-[20px]  z-40 print:hidden"
         >
-          <IoIosArrowUp className="bg-black   text-white rounded-lg shadow-lg text-[45px] md:mr-10" />
+          <IoIosArrowUp className="bg-black   text-white rounded-xl shadow-lg text-[45px] md:mr-10" />
         </motion.button>
       )}
     </>

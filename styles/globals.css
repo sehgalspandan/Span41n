@@ -1,8 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sarina&display=swap');
+
 #name{
     font-family: 'Sarina'
 
@@ -10,13 +12,13 @@
 
 
 body{
-    @apply w-fit;
-    @apply sm:w-full;
-    @apply text-black;
+    
+    @apply text-black ;
+    @apply dark:bg-white dark:text-black  ;
     
 }
 ::selection {
- @apply bg-emerald-400;
+ @apply bg-gray-800 text-white;
   }
   
 

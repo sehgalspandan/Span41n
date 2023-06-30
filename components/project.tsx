@@ -15,17 +15,17 @@ const Project = () => {
 
   return (
     <div className="mt-8">
-      <h1 className="text-3xl text-center text-black ml-2 font-bold mt-6">Projects </h1>
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 px-5">
+      <h1 className="text-3xl text-center text-black  font-bold mt-6">Projects </h1>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 px-5">
         {projects.map((project) => (
-          <div key={project.id} className="ml-2">
+          <div key={project.id} className="w-full mx-auto">
             <AnimatePresence>
               <motion.a
                 initial={{ y: "100%" }}
                 animate={{ y: 0 }}
                 exit={{ y: "100%" }}
                 transition={{ duration: 1, ease: "easeInOut" }}
-                className="relative mt-6 block w-96 lg:w-full bg-inherit rounded-xl border border-black p-8 shadow-md mx-auto"
+                className="relative mt-6 block  lg:w-full bg-inherit rounded-xl border border-black p-8 shadow-md w-full mx-auto"
                 href={project.link}
               >
                 <span className="absolute right-4 top-4 rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600">

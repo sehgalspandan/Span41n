@@ -24,22 +24,21 @@ export default function Home() {
         />
       </Head>
 
+
       <Landing />
       <Skills />
       <center>
         <hr className="h-1 mt-10 w-96 bg-gray-300" />
       </center>
+
       <Projects />
+      
       <center>
         <hr className="h-1 mt-10 w-96 bg-gray-300" />
       </center>
-      {/* <Contact/> */}
-      {/* <Blogs/>
-          <center>
-              <hr className="h-1 mt-10 w-96 bg-gray-300"></hr>
-  </center>*/}
+
       <Contact />
-      
+
     </Layout>
   );
 }

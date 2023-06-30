@@ -12,11 +12,11 @@ export default function Landing() {
         opacity: 1,
       }}
       transition={{
-        duration: 1.5,
+        duration: 0.5,
       }}
     >
-      <div className="flex items-center justify-center">
-        <div className=" font-semibold text-center  max-w-xl">
+      <div className="flex items-center w justify-center">
+        <div className=" font-semibold text-center w-full mx-auto">
           <Image
             width={250}
             height={250}
@@ -30,14 +30,14 @@ export default function Landing() {
           </h1>
           <h3 className="font-medium text-xs md:text-sm mt-2 lg:text-lg text-blue-600 ">
             {" "}
-            Software Development Student{" "}
+            Software Developement Student{" "}
           </h3>
           <p className="  text-slate-400 font-medium text-sm md:text-base text-center">
-            I&apos;m currently learning python from Udemy & building websites...
+            Currently learning Python, Nextjs and TypeScript...
           </p>
           <a href="mailto:spandansehgal@gmail.com">
             <button className="border-indigo-600 border-2 px-8 py-2 mt-8 rounded-3xl hover:scale-105 transition-all ease-in-out text-indigo-600 font-semibold uppercase tracking-wide">
-              Contact
+              Let&apos;s Connect
             </button>
           </a>
         </div>
