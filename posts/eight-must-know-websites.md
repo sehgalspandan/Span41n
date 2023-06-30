@@ -1,9 +1,9 @@
 ---
 title: "8 Must-Know websites"
 date: "27 June 2023"
-bannerImage: "#"
 description: "8 must-know websites for developers, covering color picking, file conversion, and icon libraries."
 author: "Spandan Sehgal"
+metaKeywords: "websites, tools, resources, icons, color picker, file conversion, image background removal, devdocs, imgur, remove.bg, undesign, wordcounter, cloudconvert, the noun project, useful websites, useful tools, useful tools for developers, useful websites for developers, must know websites"
 ---
 
 ## Introduction

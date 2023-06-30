@@ -9,7 +9,7 @@ import MarkdownIt from "markdown-it";
 import Head from "next/head";
 
 export default function Post({ frontmatter, content }) {
-  const { title, author,  date, bannerImage } = frontmatter;
+  const { title, author,  date, description, metaKeywords } = frontmatter;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -22,6 +22,11 @@ export default function Post({ frontmatter, content }) {
     <Head>
       <title>{title}</title>
       <link rel="shortcut icon" href="/logo/logo-color.png" type="image/x-icon" />
+      <meta name="description" content={description}></meta>
+      <meta name="keywords" content={metaKeywords} />
+      <meta name="robots" content="index, follow"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      <meta charSet="UTF-8"></meta>
     </Head>
     <Layout>
       <motion.div

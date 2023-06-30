@@ -1,8 +1,8 @@
 ---
 title: "Hello World: How I Revamped My Portfolio Website"
 date: "25 June 2023"
-bannerImage: "#"
 description: "This post describes my experience in redesigning my portfolio website and outlines the steps they took to add interactive elements, style the website, and test for user-friendliness."
+metaKeywords: "portfolio, website, redesign, Next.js, JavaScript, TailwindCSS, Framer Motion, UI design, user interface, interactive elements, user-friendliness, contact form, blog feature, revamping my portfolio website"
 author: "Spandan Sehgal"
 ---
 

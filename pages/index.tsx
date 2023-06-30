@@ -22,6 +22,7 @@ export default function Home() {
           name="google-site-verification"
           content="MTCdufNgJmf9kJAKcIrDJ5SEBN2MLzePtHJR0wgfHdE"
         />
+        <meta name="keywords" content="span41n, spandan sehgal, spandyboss, span41n.vercel.app, Span41n, Spandan, Spandan Sehgal, software developer" />
       </Head>
 
 
