@@ -105,6 +105,10 @@ const skills = [
   {
     name: "Tailwind CSS",
     icon: "/tailwindcss.svg"
+  },
+  {
+    name: "Wazuh",
+    icon: "/wazuh.svg"
   }
 ];
 
