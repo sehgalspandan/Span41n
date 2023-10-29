@@ -28,7 +28,7 @@ TailwindCSS allowed me to style the website quickly and efficiently, and I utili
 
 Throughout the development process, I made sure to test the website continuously to ensure that it was functioning correctly and was user-friendly. I also Requested feedback from friends to get an outside perspective on how to improve the website.
 Also I would like if you all give the feedback too for [my website](https://span41n.vercel.app)  
-GitHub Repo: [here](https://github.com/SpandyBoss/Span41n)
+GitHub Repo: [here](https://github.com/sehgalspandan/Span41n)
 
 ## Conclusion
 
