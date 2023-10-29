@@ -28,7 +28,7 @@ export default function Footer() {
   </div> 
   <div>
     {/* <span className="footer-title">Legal</span>  */}
-    <a className="footer-title hover:text-black transition-all ease-in-out" href='https://github.com/spandyboss' target='_blank' rel="noreferrer">GitHub</a> 
+    <a className="footer-title hover:text-black transition-all ease-in-out" href='https://github.com/sehgalspandan' target='_blank' rel="noreferrer">GitHub</a> 
     {/* <a className="footer-title ">Email</a>  */}
     <a className="footer-title hover:text-black transition-all ease-in-out" href='https://dev.to/spandyboss' target='_blank' rel="noreferrer"> Dev community</a>
     <a className="footer-title hover:text-black transition-all ease-in-out" href='https://medium.com/@spandansehgal' target='_blank' rel="noreferrer"> Medium.com </a>
