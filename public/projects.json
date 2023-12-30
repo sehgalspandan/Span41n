@@ -2,14 +2,22 @@
 [
   
   {
-    "id": 1,
+    "id":1,
+    "title":"PyWallet",
+    "description":"Your go-to Python CLI tool for hassle-free expense tracking. Effortlessly manage your finances and stay on top of your budget with this sleek and intuitive project",
+    "link":"https://github.com/sehgalspandan/PyWallet",
+    "version":"1.1"
+  },
+
+  {
+    "id": 2,
     "title": "WeatherCast",
     "description": "A modern weather app with a clean UI",
     "link": "https://weather-cast.vercel.app",
     "version": "1.0"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Blog",
     "description": "The blog section of this website",
     "link": "/blog",
@@ -17,7 +25,7 @@
   },
 
   {
-    "id":3,
+    "id":4,
     "title":"Tech With Spandy",
     "description":"My first blog built by me",
     "link":"https://techwithspandy.vercel.app",

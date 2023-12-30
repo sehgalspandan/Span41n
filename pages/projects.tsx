@@ -32,7 +32,7 @@ const Projects = () => {
             <p>{project.description}</p>
             <p className="bg-emerald-100 rounded-xl px-4 py-1 font-semibold text-sm w-fit">{project.version}</p>
             <div className="card-actions justify-end">
-              <button  className="btn bg-gray-800 lg:px-10 md:px-8 sm:px-4  text-white"> <a href={project.link}> Visit</a></button>
+            <a href={project.link} target="__blank">  <button  className="btn bg-gray-800 lg:px-10 md:px-8 sm:px-4  text-white">Visit  </button> </a>
             </div>
             <div>
           <hr className="w-full mt-3 flex mx-auto h-0.5 bg-gray-300"></hr>
