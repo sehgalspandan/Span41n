@@ -24,7 +24,7 @@ To use this repo as template you can simply click on the `Use this template ` bu
 Clone the project
 
 ```bash
-  git clone https://github.com/SpandyBoss/Span41n
+  git clone https://github.com/sehgalspandan/Span41n
 ```
 
 Go to the project directory
