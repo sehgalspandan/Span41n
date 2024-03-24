@@ -28,11 +28,11 @@ export default function Landing() {
             {" "}
             Spandan Sehgal{" "}
           </h1>
-          <h3 className="font-medium text-xs md:text-sm mt-2 lg:text-lg text-blue-600 ">
+          <h3 className="font-medium text-xs md:text-sm mt-2 font-mono lg:text-lg text-blue-600 ">
             {" "}
-            Software Developement Student{" "}
+            Student of Software Development{" "}
           </h3>
-          <p className="  text-slate-500 font-medium text-sm md:text-base text-center">
+          <p className="  text-slate-500 font-medium text-sm  font-mono md:text-base text-center">
             Currently learning Python, Nextjs and TypeScript...
           </p>
           <a href="mailto:spandansehgal@gmail.com">

@@ -24,8 +24,8 @@ const Project = () => {
                 // initial={{ y: "100%" }}
                 // animate={{ y: 0 }}
                 // exit={{ y: "100%" }}
-                // transition={{ duration: 0.5, ease: "easeInOut" }}
-                className="relative mt-6 block  lg:w-full bg-inherit rounded-xl border border-black p-8 shadow-md w-full mx-auto"
+                // transition={{ duration: 1, ease: "easeInOut" }}
+                className="relative mt-6 block  lg:w-full bg-inherit rounded-xl border border-black p-8 shadow-md w-full mx-auto hover:shadow-lg hover:scale-95 transition-all ease-in-out"
                 href={project.link}
               >
                 <span className="absolute right-4 top-4 rounded-full bg-green-100 px-3 py-1.5 text-xs font-medium text-green-600">

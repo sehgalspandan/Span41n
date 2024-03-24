@@ -16,18 +16,33 @@ function Blogs({ posts }) {
         <meta name="description" content="My Projects" />
         <link rel="icon" href="/logo/logo-color.png" />
       </Head>
-      <div className="text-center">
+      <motion.div 
+      
+      initial={{opacity: 0, y: 100}}
+      animate={{opacity: 1.5, y: 0}}
+      transition={{duration: 0.5}}
+  
+        
+      
+      className="text-center">
     <h2 className="mb-2 text-4xl font-extrabold leading-tight text-gray-900">
        Blog
     </h2>
     <p className="text-lg text-gray-500">
      All of my blog posts
     </p>
-  </div>
+  </motion.div>
       {/* <div className="flex flex-col items-center justify-center h-fit mb-2 ">
         <h1 className="text-5xl font-bold">Blog</h1>
         <p className="text-2xl font-bold">Here are some of my recent posts</p>
       </div> */}
+      <motion.div
+         initial={{opacity: 0, y: 100}}
+         animate={{opacity: 1.5, y: 0}}
+         transition={{duration: 0.5}}
+     
+         
+      >
       <section>
         {posts.map(post => {
           //extract slug and frontmatter
@@ -105,6 +120,7 @@ function Blogs({ posts }) {
           )
         })}
       </section>
+      </motion.div>
 
     </Layout>
   )

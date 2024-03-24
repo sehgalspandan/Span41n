@@ -4,6 +4,7 @@ import Landing from "../components/landing";
 import Skills from "../components/skills";
 import Contact from "../components/contact";
 // import Blogs from "../components/Blogs";
+
 import Projects from "../components/project";
 import React from "react";
 
@@ -17,7 +18,7 @@ export default function Home() {
           name="description"
           content="My portfolio website with my latest blog"
         />
-        <link rel="icon" href="/logo/logo-color.png" />
+        <link rel="icon" href="/logo/logo.png" />
         <meta
           name="google-site-verification"
           content="MTCdufNgJmf9kJAKcIrDJ5SEBN2MLzePtHJR0wgfHdE"
@@ -37,6 +38,7 @@ export default function Home() {
       <center>
         <hr className="h-1 mt-10 w-96 bg-gray-300" />
       </center>
+
 
       <Contact />
 

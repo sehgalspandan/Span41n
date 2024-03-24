@@ -21,7 +21,13 @@ const Projects = () => {
     <link rel="shortcut icon" href="/logo/logo-color.png" type="image/x-icon" />
     </Head>
     <Layout>
-    <div className="mt-8 ">
+    <motion.div 
+    initial={{opacity: 0, y: 100}}
+    animate={{opacity: 1.5, y: 0}}
+    transition={{duration: 0.5}}
+
+    
+    className="mt-8 ">
       <h1 className="text-3xl text-center text-black ml-2 font-bold mt-6">Projects </h1>
       <div className=" space-y-3 mt-2 px-5">
         {projects.map((project) => (
@@ -43,7 +49,7 @@ const Projects = () => {
         ))}
       </div>
    
-    </div>
+    </motion.div>
     </Layout>
     </>
   );
