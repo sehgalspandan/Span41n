@@ -1,6 +1,6 @@
 ---
 title: 'Extract Info from wikipedia using python'
-date: 'June 19, 2023'
+date: '19 June 2023'
 description: 'This tutorial will help you to extract information and data from the good old trusty Wikipedia using the Python programming language.'
 author: 'Spandan Sehgal'
 metaKeywords: "Python, Wikipedia, data extraction, web scraping, BeautifulSoup, programming, tutorial, open-source, software, development, exrtact data from wikipedia, extract data from wikipedia using python"

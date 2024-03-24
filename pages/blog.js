@@ -128,11 +128,12 @@ function Blogs({ posts }) {
 
 export default Blogs
 
+
 //Generating the Static Props for the Blog Page
 export async function getStaticProps() {
   // get list of files from the posts folder
   const files = fs.readdirSync('posts');
-
+  
   // get frontmatter & slug from each post
   const posts = files.map((fileName) => {
     const slug = fileName.replace('.md', '');
@@ -145,6 +146,13 @@ export async function getStaticProps() {
     };
   });
 
+  // Sort posts based on the date in chronological order
+  posts.sort((a, b) => {
+    const dateA = new Date(a.frontmatter.date);
+    const dateB = new Date(b.frontmatter.date);
+    return dateB - dateA;
+  });
+
   // Return the pages static props
   return {
     props: {
@@ -152,3 +160,4 @@ export async function getStaticProps() {
     },
   };
 }
+
