@@ -47,14 +47,14 @@ function Blogs({ posts }) {
         {date}
       </p>
       <h2 className="mb-2 text-xl font-extrabold leading-snug tracking-tight text-gray-800 md:text-3xl">
-        <a href={`/posts/${slug}`} className="text-gray-900 hover:text-blue-700">
+        <a href={`/posts/${slug}`} className="text-gray-900 hover:text-blue-700 transition-all ease-in-out">
          {title}
         </a>
       </h2>
       <p className="mb-4 text-base font-normal text-gray-600">
         {description}
       </p>
-      <a href={`/posts/${slug}`}className="btn btn-light btn-sm">
+      <a href={`/posts/${slug}`}className="btn btn-light dark:text-white btn-sm">
         Continue Reading
       </a>
     </div>

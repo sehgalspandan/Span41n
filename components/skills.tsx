@@ -28,15 +28,15 @@ const Skills = () => {
   return (
     <Fragment>
       <motion.div
-        ref={ref}
-        animate={controls}
-        initial="hidden"
-        variants={divVariants}
-        exit={{
-          opacity: 0,
-          y: 100
-        }}
-        className="px-5 mt-10"
+        // ref={ref}
+        // animate={controls}
+        // initial="hidden"
+        // variants={divVariants}
+        // exit={{
+        //   opacity: 0,
+        //   y: 100
+        // }}
+        className="px-5 mt-20"
       >
         <div className="text-center text-black text-3xl font-bold mb-4">My Skills</div>
         <div className="grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-2  ">

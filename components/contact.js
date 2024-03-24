@@ -25,9 +25,10 @@ export const Contact = () => {
   return (
 
     <motion.div
-      initial={{ opacity: 0, x: 10 }}
-      animate={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1 }}>
+      // initial={{ opacity: 0, x: 10 }}
+      // animate={{ opacity: 1, x: 0 }}
+      // transition={{ duration: 1 }}
+      >
       <section className=" mt-2">
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 text-center">
           <h1 className="text-3xl text-center pb-5 text-gray-900 font-bold">Contact</h1>

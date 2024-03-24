@@ -21,10 +21,10 @@ const Project = () => {
           <div key={project.id} className="w-full mx-auto">
             <AnimatePresence>
               <motion.a
-                initial={{ y: "100%" }}
-                animate={{ y: 0 }}
-                exit={{ y: "100%" }}
-                transition={{ duration: 1, ease: "easeInOut" }}
+                // initial={{ y: "100%" }}
+                // animate={{ y: 0 }}
+                // exit={{ y: "100%" }}
+                // transition={{ duration: 0.5, ease: "easeInOut" }}
                 className="relative mt-6 block  lg:w-full bg-inherit rounded-xl border border-black p-8 shadow-md w-full mx-auto"
                 href={project.link}
               >

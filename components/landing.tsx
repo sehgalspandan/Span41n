@@ -20,11 +20,11 @@ export default function Landing() {
           <Image
             width={250}
             height={250}
-            className="mb-3 w-48 h-48 hover:scale-125 transition-all ease-out rounded-full shadow-lg mx-auto"
+            className="mb-3 w-48 h-48 hover:scale-125 transition-all ease-in-out rounded-full shadow-lg mx-auto"
             src="/pf.jpeg"
             alt="Spandan"
           />
-          <h1 id="name" className="text-5xl text-gray-700 mt-4 ">
+          <h1 id="name" className="text-5xl text-gray-700 mt-6 ">
             {" "}
             Spandan Sehgal{" "}
           </h1>
@@ -32,7 +32,7 @@ export default function Landing() {
             {" "}
             Software Developement Student{" "}
           </h3>
-          <p className="  text-slate-400 font-medium text-sm md:text-base text-center">
+          <p className="  text-slate-500 font-medium text-sm md:text-base text-center">
             Currently learning Python, Nextjs and TypeScript...
           </p>
           <a href="mailto:spandansehgal@gmail.com">
