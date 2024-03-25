@@ -43,12 +43,15 @@ body{
 }
 
 #post-body  pre {
-  @apply bg-slate-200 rounded-md p-3 w-fit font-semibold flex text-sm mt-2 mb-2;
-  
+  @apply bg-slate-200 rounded-md p-3 w-full  font-semibold  text-sm mt-2 mb-2;
+  @apply overflow-x-auto;
+  @apply whitespace-pre-wrap;
   }
 
 #post-body code{
   @apply bg-slate-200;
+  @apply rounded-md w-fit;
+  
 }
 
 #post-body h1{
