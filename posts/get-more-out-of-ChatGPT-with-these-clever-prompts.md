@@ -37,6 +37,6 @@ Out of these prompts, which one will give me the best output?
 This lets you know which prompt, according to ChatGPT is the best. You may also try all of them one by one on your own.
 ## Wrapping Up
 
-By using this special prompt, you can unlock a ton of creative possibilities with ChatGPT. So next time you want to use ChatGPT, give this a try!
+By using this special prompt, it will become a lot easier to get the best results. So next time you want to use ChatGPT, give this a try!
 
 Thanks for reading!
