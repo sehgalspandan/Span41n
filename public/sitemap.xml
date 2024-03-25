@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://span41n.vercel.app/</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://span41n.vercel.app/about</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://span41n.vercel.app/blog</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://span41n.vercel.app/projects</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://span41n.vercel.app/posts/get-more-out-of-ChatGPT-with-these-clever-prompts</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://span41n.vercel.app/posts/the-ai-toolbox</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://span41n.vercel.app/posts/eight-must-know-websites</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://span41n.vercel.app/posts/how-i-revamped-my-portfolio</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://span41n.vercel.app/posts/how-to-extract-data-from-wikipedia-using-python</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://span41n.vercel.app/posts/how-to-download-youtube-videos-in-python</loc>
+  <lastmod>2024-03-25T09:24:55+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
