@@ -1,5 +1,5 @@
 ---
-title: " Stuck with ChatGPT prompts? No worries!"
+title: " Stuck with ChatGPT? No worries!"
 date: "25 March 2024"
 description: "Supercharge your ChatGPT skills! This post unveils a secret prompt that unlocks a treasure trove of creative prompts for all your projects."
 author: "Spandan Sehgal"
