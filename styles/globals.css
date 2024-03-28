@@ -23,7 +23,7 @@ body{
  @apply bg-gray-800 text-white;
   }
   
-
+/* 
 #post-body a{
   @apply text-blue-500;
 
@@ -94,4 +94,65 @@ body{
   font-weight: bold;
   font-size: 0.5rem;
   @apply mb-2
+} */
+
+
+/* Styles for anchor (link) elements */
+#post-body a {
+  @apply text-blue-500;
+}
+
+/* Styles for post title */
+#title {
+  @apply text-5xl;
+}
+
+/* Styles for images */
+#post-body img {
+  @apply my-2 rounded-lg shadow-lg object-cover;
+}
+
+/* Styles for preformatted text blocks */
+#post-body pre {
+  @apply bg-slate-200 rounded-md p-3 w-full font-semibold text-sm mt-2 mb-2 overflow-x-auto whitespace-pre-wrap;
+}
+
+/* Styles for inline code blocks */
+#post-body code {
+  @apply bg-slate-200 rounded-md w-fit;
+}
+
+/* Styles for headings */
+#post-body h1 {
+  @apply font-bold text-3xl mb-4  mt-3;
+}
+
+#post-body h2 {
+  @apply font-bold text-2xl mb-3 mt-3;
+}
+
+#post-body h3 {
+  @apply font-bold text-xl mb-2 mt-3;
+}
+
+#post-body h4 {
+  @apply font-bold text-lg mb-1 mt-3;
+}
+
+#post-body h5 {
+  @apply font-bold text-base mb-1 mt-3;
+}
+
+#post-body h6 {
+  @apply font-bold text-sm mb-1 mt-3;
+}
+
+/* Styles for lists */
+#post-body ul, #post-body ol {
+  @apply list-disc pl-6 mb-4 mt-2;
+}
+
+/* Styles for line breaks */
+#post-body hr {
+  @apply my-4 border-t-2 border-gray-200;
 }
