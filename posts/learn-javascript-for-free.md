@@ -20,7 +20,7 @@ According to [MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Fir
   
 ## What can JavaScript do?  
 
-### 1. Running code in response to certain events occurring on a web page.
+### 1. Running code in response to certain events occurring on a web page
 
 We can use eventlisteners in JavaScript to perform a certain action when a certain event is triggered, for example:  
 
@@ -31,6 +31,7 @@ button.addEventListener("click", (event) => {
   button.textContent = `Click count: ${event.detail}`;
 });
 ```
+
 By this we can easily get to know how many times a button is clicked!
 
 ### 2. JavaScript can change CSS styles
@@ -40,7 +41,7 @@ We can use JavaScript to dynamically change the CSS properties of an element as 
 document.getElementById("demo").style.fontSize = "35px";
 ```
 
-### 3. JavaScript allows us to fetch information and display it on our website.
+### 3. JavaScript allows us to fetch information and display it on our website
 
 The **Fetch API** provides a JavaScript interface for accessing and manipulating components of the protocol, such as requests and responses.
 
@@ -54,16 +55,16 @@ async function logMovies() {
 }
 ```
 
-### 4. JavaScript can be used to make Mobile Applications  <br> 
+### 4. JavaScript can be used to make Mobile Applications  
 _"Mobile apps make it easier for users to access information, services, and products from their mobile devices anywhere and at any time. Mobile apps allow businesses to engage with their customers through personalized experiences, notifications, and real-time updates. And JavaScript frameworks are very useful in mobile app development. JavaScript frameworks can be used to develop such mobile apps that can run on multiple platforms with the same codebase which effectively reduces the development time and cost."_
 
 [source - GeekForGeeks](https://www.geeksforgeeks.org/top-javascript-frameworks-for-mobile-apps-development/#:~:text=Mobile%20apps%20make,time%20and%20cost.)
 
 **Hence, javascript allows programmers to create mobile apps by using various libraries built be other coders to make our development experience streamlined.**
 
-<br>
 
-## Resources to get you started with JavaScript! <br>
+
+## Resources to get you started with JavaScript!
 So, now I will be providing you **best free resources for beginners to get started with JavaScript and learn JavaScript easily!**
 
 - [**freeCodeCamp.org JavaScript crash course**](https://www.youtube.com/watch?v=PkZNo7MFNFg)
