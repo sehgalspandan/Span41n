@@ -22,6 +22,7 @@ export default function Landing() {
             height={250}
             className="mb-3 w-48 h-48 hover:scale-125 transition-all ease-in-out rounded-full shadow-lg mx-auto"
             src="/pf.jpeg"
+            priority = {true}
             alt="Spandan"
           />
           <h1 id="name" className="text-5xl text-gray-700 mt-6 ">
