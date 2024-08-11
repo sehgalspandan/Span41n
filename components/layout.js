@@ -7,6 +7,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
+
       <br/>
       <main>{children}
       <Analytics/>
